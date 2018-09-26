@@ -66,7 +66,7 @@ def main():
 
     elif num == '4':
         target_ip = input('Enter target ip: ')
-        res = nmap.PortScanner(ip)
+        res = nmap.PortScanner().scan(target_ip)
         print(res)
 
     elif num == '5':
