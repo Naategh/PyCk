@@ -9,8 +9,9 @@ We will also expand this scripts in our next versions and add a few other script
 
 Enjoy :)
 
-install: pip3 -r install requirements.txt
+**install:** 
+pip3 -r install requirements.txt
 
-Requirements:
+**Requirements:**
 1-Python3.5
 2-Internet connection
