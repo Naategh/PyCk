@@ -1,17 +1,17 @@
-PyCk v0.8
+# PyCk v1.1
 
 
-This is a project involving some relatively simple scripts for those who want to start a newly-started toolkit with Python, which may have issues that will surely be resolved in future releases.
-The purpose of this project is to teach Python applications in the field of hacking.
-We will also expand this scripts in our next versions and add a few other scripts...
+This is a simple project that implements some usefull scripts.
+This project can be used for learning scripting with Python and 
+creating simple pentesting tools, too.
 
+And I should also point out that
+The reason for using different and large libraries in this project
+It is for educational use
+
+## install
+
+pip3 -r install requirements.txt
 
 
 Enjoy :)
-
-**install:** 
-pip3 -r install requirements.txt
-
-**Requirements:**
-1-Python3.5
-2-Internet connection

@@ -6,25 +6,18 @@ def main(text,hashType):
 
     if hashType.lower() == 'md5':
         myhash = hashlib.md5(encoder).hexdigest()
-
     elif hashType.lower() == 'sha1':
         myhash = hashlib.sha1(encoder).hexdigest()
-
     elif hashType.lower() == 'sha224':
         myhash = hashlib.sha224(encoder).hexdigest()
-
     elif hashType.lower() == 'sha256':
         myhash = hashlib.sha256(encoder).hexdigest()
-
     elif hashType.lower() == 'sha384':
         myhash = hashlib.sha384(encoder).hexdigest()
-
     elif hashType.lower() == 'sha512':
         myhash = hashlib.sha512(encoder).hexdigest()
-
     else:
         print('Script not support this hash type')
-
     print(myhash)
 
 

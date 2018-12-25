@@ -324,7 +324,6 @@ ur-admin.%EXT%
 ur-admin/
 Server.%EXT%
 Server/
-wp-admin/
 administr8.%EXT%
 administr8/
 webadmin/

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from urllib.request import urlopen
 from urllib.error import HTTPError, URLError
 import requests, os, nmap, ipwhois, socket
