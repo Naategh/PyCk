@@ -11,7 +11,8 @@ It is for educational use
 
 ## install
 
+```
 pip3 -r install requirements.txt
-
+```
 
 Enjoy :)
