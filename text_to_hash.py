@@ -38,11 +38,3 @@ if __name__ == '__main__':
     hType = args.type
     main(txt,hType)
 
-
-
-
-
-
-# text = 'behnam'
-# ha = text.encode('utf_8')
-# hasham = hashlib.md5(ha).hexdigest()
