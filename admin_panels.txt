@@ -1,3 +1,11 @@
+sysuser
+admuser
+sysusr
+admusr
+sys_usr
+sys_user
+adm_user
+adm_usr
 admin1.php
 admin1.html
 admin2.php
@@ -18,6 +26,13 @@ admin/home.php
 admin/controlpanel.html
 admin/controlpanel.php
 admin.php
+admin_area
+admin_area.php
+admin_area.html
+adminarea
+adminarea.php
+adminarea.html
+adminArea
 admin.html
 admin/cp.php
 admin/cp.html
@@ -188,6 +203,7 @@ radmind-1/
 Super-Admin/
 AdminTools/
 cmsadmin/
+managment/admin
 SysAdmin2/
 globes_admin/
 cadmins/
@@ -508,7 +524,6 @@ admin/login.html
 admin/home.php
 admin/controlpanel.html
 admin/controlpanel.php
-admin.php
 admin.html
 admin/cp.php
 admin/cp.html
@@ -523,7 +538,6 @@ administrator/account.html
 administrator/account.php
 administrator.php
 administrator.html
-login.php
 login.html
 modelsearch/login.php
 moderator.php
