@@ -100,7 +100,6 @@ administration.php
 administration.html
 sysadmin.php
 sysadmin.html
-phpmyadmin/
 myadmin/
 sysadmin.asp
 sysadmin/
@@ -524,6 +523,7 @@ admin/login.html
 admin/home.php
 admin/controlpanel.html
 admin/controlpanel.php
+admin.php
 admin.html
 admin/cp.php
 admin/cp.html
@@ -538,6 +538,7 @@ administrator/account.html
 administrator/account.php
 administrator.php
 administrator.html
+login.php
 login.html
 modelsearch/login.php
 moderator.php
@@ -587,7 +588,6 @@ administration.php
 administration.html
 sysadmin.php
 sysadmin.html
-phpmyadmin/
 myadmin/
 sysadmin.asp
 sysadmin/
