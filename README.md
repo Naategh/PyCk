@@ -18,6 +18,9 @@ It is for educational use
 ## Requirements
 - Python 3.5
 
+## License
+This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details
+
 ## Contact
 - Email: manamtabeshekan@gmail.com
 - Telegram: @Naategh
