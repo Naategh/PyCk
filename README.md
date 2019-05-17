@@ -9,7 +9,7 @@ And I should also point out that
 The reason for using different and large libraries in this project
 It is for educational use
 
-## install
+## Install
 
 ```
 pip3 -r install requirements.txt
