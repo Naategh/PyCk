@@ -1,3 +1,4 @@
+pwadmin
 sysuser
 admuser
 sysusr
@@ -25,6 +26,7 @@ admin/login.html
 admin/home.php
 admin/controlpanel.html
 admin/controlpanel.php
+login.admin.php
 admin.php
 admin_area
 admin_area.php
@@ -65,7 +67,6 @@ controlpanel.html
 admincontrol.php
 admincontrol.html
 adminpanel.php
-adminpanel.html
 admin1.asp
 admin2.asp
 yonetim.asp
@@ -143,7 +144,6 @@ sys-admin/
 typo3/
 panel/
 cpanel/
-cPanel/
 cpanel_file/
 platz_login/
 rcLogin/
@@ -363,8 +363,6 @@ LiveUser_Admin/
 sys-admin/
 typo3/
 panel/
-cpanel/
-cpanel_file/
 platz_login/
 rcLogin/
 blogindex/
@@ -522,7 +520,6 @@ admin/login.php
 admin/login.html
 admin/home.php
 admin/controlpanel.html
-admin/controlpanel.php
 admin.php
 admin.html
 admin/cp.php
@@ -538,8 +535,6 @@ administrator/account.html
 administrator/account.php
 administrator.php
 administrator.html
-login.php
-login.html
 modelsearch/login.php
 moderator.php
 moderator.html
@@ -548,14 +543,11 @@ moderator/login.html
 moderator/admin.php
 moderator/admin.html
 moderator/
-account.php
 account.html
 controlpanel/
-controlpanel.php
 controlpanel.html
 admincontrol.php
 admincontrol.html
-adminpanel.php
 adminpanel.html
 admin1.asp
 admin2.asp
@@ -631,9 +623,6 @@ LiveUser_Admin/
 sys-admin/
 typo3/
 panel/
-cpanel/
-cPanel/
-cpanel_file/
 platz_login/
 rcLogin/
 blogindex/
