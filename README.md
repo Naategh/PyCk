@@ -7,7 +7,7 @@ creating simple pentesting tools, too.
 
 And I should also point out that
 The reason for using different and large libraries in this project
-It is for educational use
+It is for educational use.
 
 ## Installation
 
