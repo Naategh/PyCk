@@ -13,7 +13,7 @@ It is for educational use.
 
 - git clone https://github.com/Naategh/PyCk.git
 - cd PyCk
-- pip3 -r install requirements.txt
+- pip3 install -r requirements.txt
 
 ## Requirements
 - Python 3.5
