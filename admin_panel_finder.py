@@ -2,7 +2,7 @@
 from requests import get
 import sys, time
 
-print("\033[91mWarning: Enter your target address such http://example.com/\033[0m")
+print("\033[91mWarning: Enter your target address such http://example.com\033[0m")
 url = input("Enter your target url: ")
 
 def main():
