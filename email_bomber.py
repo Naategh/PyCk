@@ -18,6 +18,6 @@ try:
         server.login(sender,password)
         server.sendmail(from_addr=sender,to_addrs=reciver,msg=message)
         server.quit()
-        print('{} email sended'.format(n))
+        print('{} email sent.format(n))
 except:
     print('Failed to send email!!!')
