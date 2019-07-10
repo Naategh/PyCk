@@ -1,7 +1,7 @@
 # PyCk v1.1
 
 
-This is a simple project that implements some usefull scripts.
+This is a simple project that implements some useful scripts.
 This project can be used for learning scripting with Python and 
 creating simple pentesting tools, too.
 
