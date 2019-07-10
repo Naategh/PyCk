@@ -33,6 +33,7 @@ It is for educational use.
 | `text_to_hash.py`       | Hash text using a variety of hashing algorithims                      |
 | `XssTester.py`          | Test Cross Site Scripting Vulnerability                               |
 | `XssPayloads.txt`       | List of XSS payloads for use with XssTester.py                        |
+| `postexfil.py`          | Http server that saves POSTED content out to file useful for exfil    |
 
 ## Roadmap
 This is an educational project to learn to make simple and useful tools for pentest in python.
