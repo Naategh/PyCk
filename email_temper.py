@@ -1,5 +1,5 @@
 from urllib.request import urlopen
-from bs4 import BeautifulSoup  # We use this library for "Web Scraping", See References in README.md for more details
+from bs4 import BeautifulSoup  # We use this library for "Web Scraping"
 
 url = 'https://tempail.com/en/'
 html = urlopen(url)
