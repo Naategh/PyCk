@@ -34,8 +34,12 @@ It is for educational use.
 | `XssTester.py`          | Test Cross Site Scripting Vulnerability                               |
 | `XssPayloads.txt`       | List of XSS payloads for use with XssTester.py                        |
 | `postexfil.py`          | Http server that saves POSTED content out to file useful for exfil    |
+<<<<<<< HEAD
 | `sniff.py`              | Scapy based sniffer                                                   |
 | `wifi_scan.py`          | Iw based wireless scanner, only works on linux                        |
+=======
+| `sniff.py`              | Simple packet sniffer by Scapy                                        |
+>>>>>>> ca75c1a553558719a3bd5b00c1102479108b6980
 
 ## Roadmap
 This is an educational project to learn to make simple and useful tools for pentest in python.

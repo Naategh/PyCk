@@ -1,33 +1,35 @@
 import hashlib
 import argparse
 
-def main(text,hashType):
+
+def main(text, hashType):
     encoder = text.encode('utf_8')
+    myHash = ''
 
     if hashType.lower() == 'md5':
-        myhash = hashlib.md5(encoder).hexdigest()
+        myHash = hashlib.md5(encoder).hexdigest()
     elif hashType.lower() == 'sha1':
-        myhash = hashlib.sha1(encoder).hexdigest()
+        myHash = hashlib.sha1(encoder).hexdigest()
     elif hashType.lower() == 'sha224':
-        myhash = hashlib.sha224(encoder).hexdigest()
+        myHash = hashlib.sha224(encoder).hexdigest()
     elif hashType.lower() == 'sha256':
-        myhash = hashlib.sha256(encoder).hexdigest()
+        myHash = hashlib.sha256(encoder).hexdigest()
     elif hashType.lower() == 'sha384':
-        myhash = hashlib.sha384(encoder).hexdigest()
+        myHash = hashlib.sha384(encoder).hexdigest()
     elif hashType.lower() == 'sha512':
-        myhash = hashlib.sha512(encoder).hexdigest()
+        myHash = hashlib.sha512(encoder).hexdigest()
     else:
-        print('Script not support this hash type')
-    print(myhash)
+        print('[!] The script does not support this hash type')
+        exit(0)
+    print("Your hash is: ", myHash)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Convert text to hash')
-    parser.add_argument('-t','--text',dest='text',required=True)
-    parser.add_argument('-T','--Type',dest='type',required=True)
+    parser.add_argument('-t', '--text', dest='text', required=True)
+    parser.add_argument('-T', '--Type', dest='type', required=True)
     args = parser.parse_args()
 
     txt = args.text
     hType = args.type
-    main(txt,hType)
-
+    main(txt, hType)
