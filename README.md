@@ -46,7 +46,7 @@ If you have any idea share with us to improve it, Please.
 This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details
 
 ## Note
-Github began to ban Iranian accounts so if we got any problem you can find my projects on [Gitlab](https://gitlab.com/Naategh/)
+Github has started banning Iranian accounts so if we got any problem you can find my projects on [Gitlab](https://gitlab.com/Naategh/)
 
 ## Contact
 - Email: manamtabeshekan@gmail.com
