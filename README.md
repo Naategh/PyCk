@@ -36,6 +36,7 @@ It is for educational use.
 | `postexfil.py`          | Http server that saves POSTED content out to file useful for exfil    |
 | `sniff.py`              | Scapy based sniffer                                                   |
 | `wifi_scan.py`          | Iw based wireless scanner, only works on linux                        |
+| `xorCrypt.py`           | xor encryption/decryption script                                      |
 
 
 ## Roadmap
