@@ -37,11 +37,14 @@ It is for educational use.
 | `sniff.py`              | Scapy based sniffer                                                   |
 | `wifi_scan.py`          | Iw based wireless scanner, only works on linux                        |
 | `xorCrypt.py`           | xor encryption/decryption script                                      |
+| `bulk_bomber.py`        | An email_bomber extension that has multiprocessing                    |
 
 
 ## Roadmap
 This is an educational project to learn to make simple and useful tools for pentest in python.
 If you have any idea share with us to improve it, Please.
+Checkout the Writting.md file to learn about how to use this repo for 
+teaching yourself how to write your own security related python scripts.
 
 ## License
 This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details
