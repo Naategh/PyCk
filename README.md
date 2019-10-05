@@ -38,6 +38,7 @@ It is for educational use.
 | `wifi_scan.py`          | Iw based wireless scanner, only works on linux                        |
 | `xorCrypt.py`           | xor encryption/decryption script                                      |
 | `bulk_bomber.py`        | An email_bomber extension that has multiprocessing                    |
+| `getFuncs.py`           | A r2pipe script that uses radare to get a function list: INSTALL R2   |
 
 
 ## Roadmap

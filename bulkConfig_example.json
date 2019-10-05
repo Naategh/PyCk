@@ -1,0 +1,7 @@
+{
+        "sender": "SENDERADDRESS",
+        "passwd": "SENDERPASSWD",
+        "subject": "subject",
+        "message": "message",
+        "times": 1
+}
