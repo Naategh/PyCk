@@ -8,6 +8,11 @@ For complete details please take a look at the [wiki](https://github.com/Naategh
 - cd PyCk
 - pip3 install -r requirements.txt
 
+## Install via docker
+`git clone https://github.com/Naategh/PyCK.git`
+
+`docker build .`
+
 ## Requirements
 - Python 3.5
 
