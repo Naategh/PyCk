@@ -68,7 +68,7 @@ def main():
                     sock.close()
 
         except KeyboardInterrupt:
-            print('Cansel Scaning...')
+            print('Cancel Scaning...')
             main()
         main()
 
