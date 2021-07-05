@@ -1,6 +1,7 @@
 # Network
 
-| File  | Description  |
-|---|---|
-| `getFuncs.py`           | A r2pipe script that uses radare to get a function list: INSTALL R2   |
-| `sysInfo.py`           | Host system information                                               |
+| File             | Description                                    |
+| ---------------- | ---------------------------------------------- |
+| `netdiscover.py` | Finding live systems in a network via nmap     |
+| `sniff.py`       | Scapy based sniffer                            |
+| `wifi_scan.py`   | Iw based wireless scanner, only works on linux |
