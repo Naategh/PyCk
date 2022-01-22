@@ -1,1 +1,8 @@
-__pycache__/*
+# The ignore list for PyCk
+#
+# [!] Ignore the cache folders and files.
+#
+
+# Ignoring pycache folders of each directory
+__pycache__/
+*/__pycache__/
