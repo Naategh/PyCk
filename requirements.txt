@@ -25,4 +25,4 @@ scapy==2.4.2
 shellescape==3.8.1
 six==1.14.0
 soupsieve==1.9.2
-urllib3==1.25.3
+urllib3==1.26.5
